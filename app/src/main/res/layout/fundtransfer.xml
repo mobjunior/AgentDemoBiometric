@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    >
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="3dp"
+        android:background="#0081CA">
+        <Button
+            android:layout_width="34dp"
+            android:onClick="back"
+            android:layout_height="34dp"
+            android:background="@drawable/back"
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="Funds Transfer"
+            android:textColor="#ffffff"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/myroundlayout"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="Account From"
+            android:textColor="#808080"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"/>
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+        </Spinner>
+
+
+        <EditText
+            android:id="@+id/edit_accountto_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLength="15"
+            android:hint="Account To"
+            android:inputType="phone"
+            android:background="#ffffff"
+            android:textSize="15dp"
+            android:layout_marginBottom="10dp"
+            android:padding="7dp"/>
+
+        <EditText
+            android:id="@+id/edit_amountfund_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLength="15"
+            android:hint="Amount (KSH)"
+            android:inputType="numberDecimal"
+            android:background="#ffffff"
+            android:textSize="15dp"
+            android:layout_marginBottom="10dp"
+            android:padding="7dp"/>
+
+        <Button
+            android:id="@+id/btntransfer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="fund"
+            android:text="Transfer Funds"
+            android:textSize="15dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/myround"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:drawableLeft="@drawable/money"
+            />
+
+
+
+
+    </LinearLayout>
+</RelativeLayout>

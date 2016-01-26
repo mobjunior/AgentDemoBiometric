@@ -1,0 +1,66 @@
+import org.apache.tools.ant.taskdefs.condition.Os
+
+apply plugin: 'com.android.application'
+
+android {
+    //****************************************
+//solving NDK deprecated integration error
+//      added by Wahome
+    sourceSets.main {
+        jniLibs.srcDir 'src/main/libs'
+        jni.srcDirs = []
+    }
+//***************************************
+    compileSdkVersion 19
+    buildToolsVersion "19.1.0"
+    compileOptions.encoding = 'UTF-8'
+
+    defaultConfig {
+        applicationId "com.agentdemo"
+        minSdkVersion 15
+        targetSdkVersion 19
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    //*************************************
+//     this section was added by Wahome
+//************************************
+// call regular ndk-build(.cmd) script from app directory
+    task ndkBuild(type: Exec) {
+        if (Os.isFamily(Os.FAMILY_WINDOWS)) {
+            commandLine '/Users/user/AppData/Local/Android/sdk/ndk-bundle/ndk-build.cmd', '-C', file('src/main').absolutePath
+        } else {
+            commandLine 'ndk-build', '-C', file('src/main').absolutePath
+        }
+    }
+
+    tasks.withType(JavaCompile) {
+        compileTask -> compileTask.dependsOn ndkBuild
+    }
+
+//*************************************
+//    end of section
+//************************************
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile fileTree(dir:'libs',include:['android-support-v4.jar'])
+    compile fileTree(dir: 'libs', include: ['acssmc-1.1.2.jar'])
+    compile fileTree(dir: 'libs', include: ['ZCSComboV2.1.3.jar'])
+    compile fileTree(dir: 'libs', include: ['zxing.jar'])
+    testCompile 'junit:junit:4.12'
+
+}

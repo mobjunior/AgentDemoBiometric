@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical" >
+    
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mobiwire_logo" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/nfc_tag_write_textView1" />
+    
+    <TextView
+        android:id="@+id/edit_firstname"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/nfc_tag_write_edit_firstname"
+        android:textSize="16sp"
+        android:inputType="textPersonName" />
+    <TextView
+        android:id="@+id/edit_lastname"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/nfc_tag_write_edit_lastname"
+        android:maxLength="15"
+        android:textSize="16sp"
+        android:inputType="textPersonName" />
+	<TextView
+        android:id="@+id/edit_phonenumber"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/nfc_tag_write_edit_phonenumber"
+    	android:maxLength="15"
+        android:textSize="16sp"
+        android:inputType="phone" />
+	<TextView
+        android:id="@+id/edit_accountnumber"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/nfc_tag_write_edit_accountnumber"
+    	android:maxLength="8"
+        android:textSize="16sp"
+        android:inputType="numberDecimal" />
+	
+	<TextView
+	    android:id="@+id/hint_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="16sp"
+        android:text="@string/nfc_tag_write_hintinfo1" />
+	
+	<LinearLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_horizontal"
+	    android:layout_marginTop="30dp"
+	    android:orientation="horizontal" >	
+	    <Button
+	        style="?android:attr/buttonBarButtonStyle"
+	        android:id="@+id/button_skip"
+	        android:layout_width="100dp"
+	        android:layout_height="wrap_content"
+	        android:background="#68aae3"
+	        android:text="@string/nfc_tag_write_button_skip"
+	        android:textColor="#ffffff" />
+		<Button
+	        style="?android:attr/buttonBarButtonStyle"
+	        android:id="@+id/button_write"
+	        android:layout_width="100dp"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="30dp"
+	        android:background="#0ee861"
+	        android:text="@string/nfc_tag_write_button_write"
+	        android:textColor="#ffffff" />
+	</LinearLayout>
+
+</LinearLayout>

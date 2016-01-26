@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:padding="20dp">
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/elogo"
+        android:layout_alignParentTop="true"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/myroundlayout"
+    >
+
+        <EditText
+            android:id="@+id/usernamefl"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/usernamefl"
+            android:inputType="text"
+            android:background="#ffffff"
+            android:layout_marginBottom="10dp"
+            android:textSize="15dp"
+            android:padding="7dp"
+            android:drawableLeft="@drawable/user"/>
+
+        <EditText
+            android:id="@+id/passwordfl"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/passwordfl"
+            android:inputType="textPassword"
+            android:background="#ffffff"
+            android:textSize="15dp"
+            android:layout_marginBottom="10dp"
+            android:padding="5dp"
+            android:fontFamily="sans-serif"
+            android:drawableLeft="@drawable/password"/>
+
+        <EditText
+            android:id="@+id/confirmpassfl"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/confirmpassfl"
+            android:inputType="textPassword"
+            android:background="#ffffff"
+            android:layout_marginBottom="10dp"
+            android:textSize="15dp"
+            android:padding="7dp"
+            android:fontFamily="sans-serif"
+            android:drawableLeft="@drawable/password"/>
+
+        <Button
+            android:id="@+id/btnfirstlogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="signup"
+            android:text="@string/btnfirstlogin"
+            android:background="@drawable/myround"
+            android:textSize="15dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+
+            />
+</LinearLayout>
+</RelativeLayout>

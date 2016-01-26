@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff" >
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="3dp"
+        android:background="#0081CA" >
+        <Button
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:onClick="back"
+            android:background="@drawable/back"
+            android:layout_marginLeft="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text=" Top up"
+            android:textColor="#ffffff"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/myroundlayout"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp">
+    <EditText
+        android:id="@+id/edit_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLength="15"
+        android:hint="phone Number"
+        android:inputType="phone"
+        android:background="#ffffff"
+        android:textSize="15dp"
+        android:layout_marginBottom="10dp"
+        android:padding="7dp"
+        android:phoneNumber="true" />
+
+        <EditText
+        android:id="@+id/edit_amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLength="15"
+        android:hint="Amount(KSH)"
+        android:background="#ffffff"
+        android:textSize="15dp"
+        android:layout_marginBottom="10dp"
+        android:padding="7dp"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/button_ok"
+        android:background="@drawable/myround"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="@string/topup_enter_number_button_ok" />
+    </LinearLayout>
+</RelativeLayout>

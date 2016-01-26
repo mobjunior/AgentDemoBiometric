@@ -1,0 +1,158 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+
+    >
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="3dp"
+        android:background="#0081CA">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text=" Services"
+            android:textColor="#ffffff"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"/>
+
+    </LinearLayout>
+    <!--     <ListView
+            android:id="@+id/mainlistview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+     -->
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true"
+        android:layout_below="@+id/header"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp"
+            android:orientation="vertical"
+            >
+
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginBottom="16dp">
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:textSize="13dp"
+                    android:layout_weight="1"
+                    android:drawableTop="@drawable/withdraw"
+                    android:background="@null"
+                    android:text="@string/mainActivity_button1"
+                    android:textColor="#0081CA"
+                    android:textStyle="bold"/>
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:textSize="13dp"
+                    android:layout_weight="1"
+                    android:drawableTop="@drawable/deposit"
+                    android:background="@null"
+                    android:text="@string/mainActivity_button2"
+                    android:textColor="#0081CA"
+                    android:textStyle="bold"/>
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:textSize="13dp"
+                    android:layout_weight="1"
+                    android:drawableTop="@drawable/balance"
+                    android:background="@null"
+                    android:text="@string/mainActivity_button3"
+                    android:textColor="#0081CA"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal" >
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="13dp"
+                    android:drawableTop="@drawable/customer"
+                    android:background="@null"
+                    android:text="@string/mainActivity_button4"
+                    android:textColor="#0081CA"
+                    android:layout_margin="10dp"
+                    android:textStyle="bold"/>
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="13dp"
+                    android:layout_margin="10dp"
+                    android:drawableTop="@drawable/airtime"
+                    android:background="@null"
+                    android:text="@string/mainActivity_button5"
+                    android:textColor="#0081CA"
+                    android:textStyle="bold"/>
+                <Button
+                    android:id="@+id/button6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="13dp"
+                    android:layout_margin="10dp"
+                    android:drawableTop="@drawable/transfer"
+                    android:background="@null"
+                    android:text="@string/mainActivity_button6"
+                    android:textColor="#0081CA"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="13dp"
+                android:layout_margin="10dp"
+                android:drawableTop="@drawable/paybills"
+                android:background="@null"
+                android:text="@string/mainActivity_button7"
+                android:textColor="#0081CA"
+                android:textStyle="bold"/>
+                >
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

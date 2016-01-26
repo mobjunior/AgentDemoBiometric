@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginLeft="10.0dip"
+    android:layout_marginRight="10.0dip"
+    android:layout_marginTop="5.0dip"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@id/button_read"
+        android:layout_width="150.0dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40.0dip"
+        android:background="#ff0ee861"
+        android:text="@string/read_fingerprint_button_read"
+        android:textColor="#ffffffff" />
+
+    <ImageView
+        android:id="@id/fingerprint"
+        android:layout_width="150.0dip"
+        android:layout_height="200.0dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40.0dip" />
+
+    <!--<TextView android:id="@id/text_status" android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content" android:layout_gravity="center_horizontal"-->
+    <!--android:text="@string/read_fingerprint_text_status" />-->
+    <!--<EditText android:id="@+id/result" android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content" android:layout_gravity="center_horizontal"-->
+    <!--/>-->
+
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/read_fingerprint_text_status" />
+
+    <!--<LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="center_horizontal" android:layout_marginTop="40.0dip"-->
+    <!--android:orientation="horizontal">-->
+    <!--<Button android:id="@id/button_skip" android:layout_width="100.0dip"-->
+    <!--android:layout_height="wrap_content" android:background="#ff68aae3"-->
+    <!--android:text="@string/read_fingerprint_button_skip"-->
+    <!--android:textColor="#ffffffff" />-->
+    <!--<Button android:id="@id/button_create" android:layout_width="100.0dip"-->
+    <!--android:layout_height="wrap_content" android:layout_marginLeft="20.0dip"-->
+    <!--android:background="#ff0ee861" android:text="@string/read_fingerprint_button_create"-->
+    <!--android:textColor="#ffffffff" />-->
+    <!--</LinearLayout>-->
+</LinearLayout>

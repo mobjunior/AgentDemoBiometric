@@ -1,0 +1,151 @@
+<resources>
+    <string name="app_name">E-Banking</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="mainActivity_button1">Withdraw</string>
+    <string name="mainActivity_button2">Deposit</string>
+    <string name="mainActivity_button3">Balance</string>
+    <string name="mainActivity_button4">Customer\nService</string>
+    <string name="mainActivity_button5">Airtime\nTopup</string>
+    <string name="mainActivity_button6">Funds\nTransfer</string>
+    <string name="mainActivity_button7">Pay\nUtilities</string>
+    <string name="cash_out_first_textView1">Withdraw</string>
+    <string name="cash_out_first_edit_account_number">Eclectics Account Number</string>
+    <string name="cash_out_first_mwallent_edit_account_number">Eclectics Account Number</string>
+    <string name="cash_out_first_edit_withdraw">Withdraw</string>
+    <string name="cash_out_first_button_validate">Preview</string>
+    <string name="credit_account_textView1">Deposit</string>
+    <string name="balance_account_textView1">Balance</string>
+    <string name="credit_account_edit_accountnumber">Eclectics Account Number</string>
+    <string name="credit_mwallent_edit_accountnumber">Eclectics Account Number</string>
+    <string name="balance_account_edit_accountnumber">Eclectics Account Number</string>
+    <string name="balance_mwallent_edit_accountnumber">Eclectics Account Number</string>
+    <string name="credit_account_edit_credit">Deposit</string>
+    <string name="credit_account_button_credit">Preview</string>
+    <string name="balance_account_button_credit">Preview</string>
+    <string name="balance_mwallent_button_credit">Preview</string>
+    <string name="balance_credit">Preview</string>
+    <string name="settings_textView1">SETTINGS</string>
+    <string name="settings_button_customer_mgmt">Accounts</string>
+    <string name="create_account_textView1">Create Eclectics Account</string>
+    <string name="create_account_edit_firstname">First Name</string>
+    <string name="create_account_edit_lastname">Last Name</string>
+    <string name="create_account_edit_phonenumber">Phone Number</string>
+    <string name="create_account_edit_deposit">First Deposit</string>
+    <string name="create_account_textView2">All fields are mandatory!!!</string>
+    <string name="create_account_button_create">Register</string>
+    <string name="create_account_preview_textView1">Eclectics Account</string>
+    <string name="create_account_preview_textView2">Please find the details below:</string>
+    <string name="create_account_preview_textView3">(Password may not show here.)</string>
+    <string name="create_account_preview_textView4">Thank you for choosing Eclectics Solution!</string>
+    <string name="create_account_preview_button_print">Print</string>
+    <string name="edit_account_textView1">Edit Eclectics Account</string>
+    <string name="create_account_edit_password">Password</string>
+    <string name="nfc_tag_write_textView1">Write NFC TAG</string>
+    <string name="nfc_tag_write_edit_firstname">First Name</string>
+    <string name="nfc_tag_write_edit_lastname">Last Name</string>
+    <string name="nfc_tag_write_edit_phonenumber">Phone Number</string>
+    <string name="nfc_tag_write_edit_accountnumber">Account Number</string>
+    <string name="nfc_tag_write_hintinfo1">All fields are mandatory!!!</string>
+    <string name="nfc_tag_write_hintinfo2">Let the tag close to the device</string>
+    <string name="nfc_tag_write_button_skip">Skip</string>
+    <string name="nfc_tag_write_button_write">Preview</string>
+    <string name="credit_account_preview_textView1">Deposit</string>
+    <string name="balance_account_preview_textView1">Balance</string>
+    <string name="credit_account_preview_textView2">------------------------</string>
+    <string name="credit_account_preview_textView3">------------------------</string>
+    <string name="credit_account_preview_textView4">Thank you for choosing Eclectics Solution!</string>
+    <string name="credit_account_preview_button_print">Print</string>
+    <string name="cash_out_second_textView1">Withdraw</string>
+    <string name="cash_out_second_edit_pin_code">Please Enter your Password</string>
+    <string name="cash_out_second_text_match_result">Present your finger</string>
+    <string name="cash_out_second_button_start_scan">Scan</string>
+    <string name="cash_out_second_button_validate">Preview</string>
+    <string name="cash_out_preview_textView1">WITHDRAW</string>
+    <string name="cash_out_preview_textView2">Please find the details below:</string>
+    <string name="cash_out_preview_textView3">(Password may not show here. Suppose sent by server.)</string>
+    <string name="cash_out_preview_textView4">Thank you for choosing Eclectics Solution!</string>
+    <string name="cash_out_preview_button_print">Print</string>
+    <string name="read_fingerprint_text_status">Please Place Index Finger On The Reader</string>>
+    <string name="CustomerBankActivity_edit_accountnumber">Account Number</string>
+    <string name="CustomerBankActivity_edit_password">Password</string>
+    <string name="splashtext">\u00a9 Eclectics International</string>
+    <string name="usernamefl">Username</string>
+    <string name="passwordfl">Password</string>
+    <string name="confirmpassfl">Confirm Password</string>
+    <string name="btnfirstlogin">Sign Up</string>
+    <string name="btnlogin">Login</string>
+    <string name="Login">Login</string>
+    <string name="wthmwallet">MWallet Account</string>
+    <string name="wthaccount">Bank Account</string>
+    <string name="depmwallet">MWallet Account</string>
+    <string name="depaccount">Bank Account</string>
+    <string name="topup_enter_number_textView1">TOP UP</string>
+    <string name="topup_enter_number_textView2">Airtime Voucher</string>
+    <string name="topup_enter_number_textView3">Phone Number:</string>
+    <string name="topup_enter_number_textView4">Amount(KSH):</string>
+    <string name="topup_enter_number_button_ok">Purchase</string>
+    <string name="topup_preview_textView1">TOP UP</string>
+    <string name="topup_preview_textView2">You have requested an airtime voucher.</string>
+    <string name="topup_preview_textView3">Please use the following code to credit your</string>
+    <string name="topup_preview_textView4">account.</string>
+    <string name="topup_preview_textView5">TOP UP CODE</string>
+    <string name="topup_preview_textView6">0000000000000</string>
+    <string name="topup_preview_textView7">Transaction ID</string>
+    <string name="topup_preview_textView8">0000000000000</string>
+    <string name="topup_preview_button_print">PRINT</string>
+    <string-array name="spinner1">
+        <item>00018545454</item>
+        <item>00018545487</item>
+        <item>00018546789</item>
+    </string-array>
+
+    <string name="msr_swipe">please swipe card</string>
+    <string name="read_fingerprint_button_read">Read FingerPrint</string>
+    <string name="register_msr_card_button_read">Register Magnetic Strip Card</string>
+    <string name="read_fingerprint_button_skip">Skip</string>
+    <string name="read_fingerprint_button_create">Next</string>
+
+    <string name="register_ic_card_button_read">Register IC card</string>
+    <string name="read_ICCard_default_text">Insert Card And Then Click The Button Above</string>
+    <string name="running">Running...</string>
+
+    <!--<string name="read_fingerprint_text_status">Plase Open Reader</string>-->
+    <string name="Please_enter_a_valid_name">Please enter a valid name···</string>
+    <string name="detected_the_finger">detected finger···</string>
+    <string name="The_fingerprint_already_exists">The fingerprint already exist！</string>
+    <string name="Fingerprint_save_success">Fingerprint saved successfully！</string>
+    <string name="Please_enter_your_name">Please enter your name···</string>
+    <string name="chaoguo"> fingerprint database is full!</string>
+    <string name="No_matching_fingerprint_records">No matching fingerprint records！</string>
+    <string name="Successful_match_Fingerprint_ID_is">Successful match fingerprint ID is：</string>
+    <string name="Successful_match">Successful match！</string>
+    <string name="Enroll_unsuccessful_please_try_again">Enroll unsuccessful please try again！</string>
+    <string name="Synthetic_fingerprint_feature_one_successful">First Fingerprint captured successfully！</string>
+    <string name="Obtaining_the_fingerprint_image_again">Please place finger again ···</string>
+    <string name="Synthetic_fingerprint_feature_two_successful">Second Fingerprint captured successfully！</string>
+    <string name="Synthesizing_to_obtain_two_fingerprint_feature">Saving fingerprints to the cache···</string>
+    <string name="data_packet_error">Datapacket error！</string>
+    <string name="Fingerprint_image_is_too_messy">Fingerprint image is not clear!</string>
+    <string name="Fingerprint_image_is_normal_but_too_few_feature_points_is_born_not_feature">Fingerprint image is not clear！</string>
+    <string name="No_valid_source_image_buffer_born_not_figure_image">Unable to read finger print image！</string>
+
+
+    <string name="power_on_failure">Device power on failure!</string>
+    <string name="power_on_error">Device power on error!</string>
+    <string name="power_on_success">Device power on success!</string>
+    <string name="pwer_off_failure">Device power off failure!</string>
+    <string name="power_off_error">Device power off error!</string>
+    <string name="power_off_success">Device power off success!</string>
+    <string name="set_failure">set key failure</string>
+    <string name="read_success">Reading data successful</string>
+    <string name="read_failure">Reading data failed</string>
+    <string name="reading"> Reading data ···</string>
+    <string name="set_success">set key success</string>
+
+
+
+
+
+</resources>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="3dp"
+        android:background="#0081CA">
+        <Button
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:onClick="back"
+            android:background="@drawable/back"
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="Top_up"
+            android:textColor="#ffffff"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/myroundlayout"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp">
+
+        <Button
+            android:id="@+id/btnsafaricom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="safi"
+            android:text="Safaricom"
+            android:textSize="15dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/myround"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:drawableLeft="@drawable/saf"
+            />
+
+        <Button
+            android:id="@+id/btnairtel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="airte"
+            android:text="Airtel"
+            android:textSize="15dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/myround"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:drawableLeft="@drawable/airtel"
+            />
+        <Button
+            android:id="@+id/btnorange"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="oran"
+            android:text="Orange"
+            android:textSize="15dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/myround"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:drawableLeft="@drawable/orange"
+            />
+    </LinearLayout>
+
+
+</RelativeLayout>
