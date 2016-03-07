@@ -109,7 +109,7 @@ public class BalanceBankCardActivity extends Activity {
 
             }
         });
-
+///this is put here to test for commit in github
         textStatus=(TextView)findViewById(R.id.textcbiStatus);
         //Filter headset plug
         registerReceiver(mHeadsetReceiver, new IntentFilter(
