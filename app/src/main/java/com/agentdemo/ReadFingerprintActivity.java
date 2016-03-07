@@ -1,47 +1,47 @@
-//package com.agentdemo;
+package com.agentdemo;
 //
-//import android.app.Activity;
-//import android.content.ComponentName;
-//import android.content.Intent;
-//import android.database.Cursor;
-//import android.database.sqlite.SQLiteDatabase;
-//import android.graphics.Bitmap;
-//import android.graphics.BitmapFactory;
-//import android.os.Bundle;
-//import android.os.Environment;
-//import android.os.Handler;
-//import android.os.Message;
-//import android.os.Looper;
-//import android.util.Log;
-//import android.view.View;
-//import android.view.View.OnClickListener;
-//import android.widget.Button;
-//import android.widget.EditText;
-//import android.widget.ImageView;
-//import android.widget.TextView;
-//import android.widget.Toast;
-//
-//import com.agentdemo.db.DBService;
-//import com.agentdemo.finger.JugeStep;
-//import com.agentdemo.entry.Account;
-//
-////import fgtit.fpengine.fpdevice;
-//
-//import java.io.File;
-//import java.io.FileNotFoundException;
-//import java.io.FileOutputStream;
-//import java.io.IOException;
-//import java.io.ObjectOutputStream;
-//import java.util.Timer;
-//import java.util.TimerTask;
+import android.app.Activity;
+import android.content.ComponentName;
+import android.content.Intent;
+import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.os.Bundle;
+import android.os.Environment;
+import android.os.Handler;
+import android.os.Message;
+import android.os.Looper;
+import android.util.Log;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.ImageView;
+import android.widget.TextView;
+import android.widget.Toast;
+
+import com.agentdemo.db.DBService;
+import com.agentdemo.finger.JugeStep;
+import com.agentdemo.entry.Account;
+
+//import fgtit.fpengine.fpdevice;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectOutputStream;
+import java.util.Timer;
+import java.util.TimerTask;
 //
 //import com.agentdemo.finger.JBInterface;
 //
 //import com.ctrl.gpio.Ioctl;
 //
-//public class ReadFingerprintActivity
-//        extends Activity {
-//    static final String TAG = "ReadFingerprintActivity";
+public class ReadFingerprintActivity
+        extends Activity {
+    static final String TAG = "ReadFingerprintActivity";
 //    //    private static fpdevice fpdev = new fpdevice();
 //    public static Handler handler = null;
 //    private static boolean isFront = false;
@@ -653,7 +653,7 @@
 ////    public String getName(int id) {
 ////        return sqlite.readResult(id);
 ////    }
-//}
+}
 //
 //
 ///* Location:              E:\backup\App\dex2jar-2.0(1)\dex2jar-2.0\classes-dex2jar.jar!\com\nbbse\printerdemo\ReadFingerprintActivity.class

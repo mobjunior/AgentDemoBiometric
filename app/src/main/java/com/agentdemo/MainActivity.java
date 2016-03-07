@@ -30,11 +30,21 @@ public class MainActivity extends Activity {
 
 
     private String[] tvdata = new String[] {
-            "Withdraw", "Deposit", "Balance", "Settings"
+            "Withdraw",
+            "Deposit",
+            "Balance",
+            "Settings"
     };
 
     private int[] ivdata = new int[] {
-            R.drawable.icon1, R.drawable.icon2, R.drawable.icon3, R.drawable.icon4, R.drawable.icon5, R.drawable.icon6, R.drawable.icon7, R.drawable.icon8
+            R.drawable.icon1,
+            R.drawable.icon2,
+            R.drawable.icon3,
+            R.drawable.icon4,
+            R.drawable.icon5,
+            R.drawable.icon6,
+            R.drawable.icon7,
+            R.drawable.icon8
     };
 
     private String topup_list[] = new String[]{"a. Cash Payment", "b. m-Payment"};

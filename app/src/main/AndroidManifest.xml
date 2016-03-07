@@ -35,163 +35,155 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.agentdemo.MainActivity"
+            android:name=".MainActivity"
             android:label="Services"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Black.NoTitleBar" />
         <activity
-            android:name="com.agentdemo.WithdrawOptionActivity"
+            android:name=".WithdrawOptionActivity"
             android:label="Withdraw"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Black.NoTitleBar" />
         <activity
-            android:name="com.agentdemo.Login"
+            android:name=".Login"
             android:label="Login"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Black.NoTitleBar" />
         <activity
-            android:name="com.agentdemo.FundTransferPreviewActivity"
+            android:name=".FundTransferPreviewActivity"
             android:label="Login"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Black.NoTitleBar" />
-
         <activity
-            android:name="com.agentdemo.FirstLogin"
+            android:name=".FirstLogin"
             android:label="First Login"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Black.NoTitleBar" />
         <activity
-            android:name="com.agentdemo.withdraw_first"
+            android:name=".withdraw_first"
             android:label="withdraw First"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Black.NoTitleBar" />
         <activity
-            android:name="com.agentdemo.TopUpAirtimeActivity"
+            android:name=".TopUpAirtimeActivity"
             android:label="Services"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Black.NoTitleBar" />
         <activity
-            android:name="com.agentdemo.WithdrawFirstMwallent"
+            android:name=".WithdrawFirstMwallent"
             android:label="withdraw First"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Black.NoTitleBar" />
         <activity
-            android:name="com.agentdemo.TopUpPreviewActivity"
+            android:name=".TopUpPreviewActivity"
             android:label="withdraw First"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Black.NoTitleBar" />
         <activity
-            android:name="com.agentdemo.WithdrawMwallentPreviewActivity"
+            android:name=".WithdrawMwallentPreviewActivity"
             android:label="withdraw First"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Black.NoTitleBar" />
         <activity
-            android:name="com.agentdemo.DepositOptionActivity"
+            android:name=".DepositOptionActivity"
             android:label="withdraw First"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Black.NoTitleBar" />
         <activity
-            android:name="com.agentdemo.DepositMwallentAccount"
+            android:name=".DepositMwallentAccount"
             android:label="withdraw First"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Black.NoTitleBar" />
         <activity
-            android:name="com.agentdemo.BalanceOptionActivity"
+            android:name=".BalanceOptionActivity"
             android:label="withdraw First"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Black.NoTitleBar" />
         <activity
-            android:name="com.agentdemo.BalanceMwallentActivity"
+            android:name=".BalanceMwallentActivity"
             android:label="withdraw First"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Black.NoTitleBar" />
         <activity
-            android:name="com.agentdemo.BalanceActivity"
+            android:name=".BalanceActivity"
             android:label="Balance"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Black.NoTitleBar" />
         <activity
-            android:name="com.agentdemo.BalancePreview"
+            android:name=".BalancePreview"
             android:label="Balance"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Black.NoTitleBar" />
-
         <activity
             android:name=".DepositAccount"
             android:label="Deposit First"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Black.NoTitleBar" />
         <activity
-            android:name="com.agentdemo.CustomerManagementActivity"
+            android:name=".CustomerManagementActivity"
             android:label="Customer Mangement"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Black.NoTitleBar" />
         <activity
-            android:name="com.agentdemo.CreateAccountActivity"
+            android:name=".CreateAccountActivity"
             android:label="Create Account"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Black.NoTitleBar" />
         <activity
-            android:name="com.agentdemo.FundTransferActivity"
+            android:name=".FundTransferActivity"
             android:label="Create Account"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Black.NoTitleBar" />
         <activity
-            android:name="com.agentdemo.CreateAccountPreviewActivity"
+            android:name=".CreateAccountPreviewActivity"
             android:label="Create Account Preview"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Black.NoTitleBar" />
         <activity
-            android:name="com.agentdemo.NfcTagWriteActivity"
+            android:name=".NfcTagWriteActivity"
             android:label="Write NFC TAG"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Black.NoTitleBar" />
-
         <activity
-            android:name="com.agentdemo.InformationEditActivity"
+            android:name=".InformationEditActivity"
             android:label="Information Edit"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Black.NoTitleBar" />
         <activity
-            android:name="com.agentdemo.TopUpOtionalActivity"
+            android:name=".TopUpOtionalActivity"
             android:label="Information Edit"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Black.NoTitleBar" />
-
         <activity
             android:name=".PayUtilitiesOptionalActivity"
             android:label="Information Edit"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Black.NoTitleBar" />
-
         <activity
-            android:name="com.agentdemo.DepositPreview"
+            android:name=".DepositPreview"
             android:label="Deposit Preview"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Black.NoTitleBar" />
-
         <activity
-            android:name="com.agentdemo.WithdrawPreviewActivity"
+            android:name=".WithdrawPreviewActivity"
             android:label="Cash Out Preview"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Black.NoTitleBar" />
         <activity
-            android:name="com.agentdemo.EditAccountActivity"
+            android:name=".EditAccountActivity"
             android:label="Cash Out Preview"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Black.NoTitleBar" />
         <activity
-            android:name="com.agentdemo.PayUtilityActivity"
+            android:name=".PayUtilityActivity"
             android:label="Cash Out Preview"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Black.NoTitleBar" />
-
         <activity
-            android:name="com.agentdemo.ReadFingerprintActivity"
+            android:name=".ReadFingerprintActivity"
             android:label="Create Account"
             android:screenOrientation="portrait" />
-
-
+        <activity android:name=".BalanceBankCardActivity"></activity>
     </application>
 
 </manifest>

@@ -144,8 +144,10 @@
     <string name="reading"> Reading data ···</string>
     <string name="set_success">set key success</string>
 
-
-
+    <!--=============BALANCE ENQUIRY BY CARD===============-->
+    <string name="btnGetbatterylevel">Check Battery Level</string>
+    <string name="btnSendrequest">Balance Enquiry</string>
+    <string name="textStatus">Status</string>
 
 
 </resources>
